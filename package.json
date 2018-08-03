@@ -2,6 +2,9 @@
   "name": "notesbase",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+   "node": "8.9.2"
+  },
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
