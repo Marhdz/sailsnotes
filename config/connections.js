@@ -65,8 +65,9 @@ module.exports.connections = {
   //   database: 'your_mongo_db_name_here' //optional
   // },
     notasdb: {
-    adapter: 'sails-mongo',
-      url: process.env.DB_URI,
+      adapter: 'sails-mongo',
+      // url: process.env.DB_URI,
+      url : 'mongodb://octocat:Thisis1password@ds259711.mlab.com:59711/notasdb',
     }
 
 
